@@ -115,7 +115,7 @@ export const roomCommonData = [
 // User Dummy Data
 export const userDummyData = {
     "_id": "user_2unqyL4diJFP1E3pIBnasc7w8hP",
-    "username": "Tadasi Hamada",
+    "username": "Great Stack",
     "email": "user.greatstack@gmail.com",
     "image": "https://i.pinimg.com/736x/f6/e7/dc/f6e7dc18115cbafcf3368e153479ce7f.jpg",
     "role": "hotelOwner",
@@ -131,7 +131,7 @@ export const userDummyData = {
 export const hotelDummyData = {
     "_id": "67f76393197ac559e4089b72",
     "name": "Urbanza Suites",
-    "address": "Main Road  123 Street , 23 Colony",
+    "address": "Main Road 123 Street , 23 Colony",
     "contact": "+0123456789",
     "owner": userDummyData,
     "city": "New York",
