@@ -25,7 +25,7 @@ export const storeRecentSearchedCities = async(req, res)=>{
         }
         else{
             user.recentSearchedCities.shift();
-            user.recentSearchedCities,push(recentSearchedCity);
+            user.recentSearchedCities.push(recentSearchedCity);
         }
         await user.save();
         res.json({success: true, message: "City added"});
